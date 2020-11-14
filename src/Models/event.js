@@ -33,13 +33,6 @@ const eventModel = {
           reject(err);
         } else {
           resolve(data);
-          // dbConnect.query(queryString, (error, data) => {
-          //   if (!error) {
-          //     resolve({ dataAll, data });
-          //   } else {
-          //     reject(err);
-          //   }
-          // });
         }
       });
     });
